@@ -155,4 +155,4 @@ MIT — free to use, modify, and fork ✌️
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [@yourname](https://github.com/yourname) — backend developer & crypto enthusiast
+Made with ❤️ by [@Teyz](https://github.com/teyz) — backend developer & crypto enthusiast
