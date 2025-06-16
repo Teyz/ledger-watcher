@@ -1,0 +1,11 @@
+wallets:
+  - name: Main Ledger
+    address: ""
+    chain: ethereum
+
+poll_interval: 60
+
+notifiers:
+  telegram:
+    token: ""
+    chat_id: ""

@@ -1,0 +1,4 @@
+.env
+.ledgerwatcher.yml
+dist
+node_modules
