@@ -15,7 +15,7 @@ import { ConsoleLogger } from './utils/logger';
   const logger = new ConsoleLogger();
 
   config.wallets.forEach(wallet => {
-    console.log(`👀 Starting watcher for ${wallet.name}`);
+    logger.log(`👀 Starting watcher for ${wallet.name}`);
     const notifier = new TelegramNotifier(config.notifiers.telegram);
     startWatcher(wallet, config.poll_interval, notifier, logger);
   });

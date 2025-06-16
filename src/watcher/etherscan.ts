@@ -17,8 +17,6 @@ type EtherscanResponse = {
   result: EtherscanTx[];
 };
 
-console.log('🔐 ETHERSCAN_API_KEY:', ETHERSCAN_API_KEY);
-
 export async function fetchRecentTxs(address: string): Promise<Transaction[]> {
   const url = `https://api.etherscan.io/api?module=account&action=txlist&address=${address}&sort=desc&apikey=${ETHERSCAN_API_KEY}`;
   const res = await fetch(url);
